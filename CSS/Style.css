@@ -1,0 +1,44 @@
+.nav-item {
+	font-size: 25px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.nav-top {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    width: 60%;
+}
+
+.carousel-top {
+    position: relative;
+    top: 0px;
+}
+
+.d-block {
+    clip:rect(100px,100px,100px,100px);
+}
+
+h1 {
+	text-align: center;
+}
+
+.well {
+	background-color: #6479A5;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
