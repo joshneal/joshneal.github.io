@@ -7,12 +7,10 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script type="text/javascript"></script>
-
 	<link rel="stylesheet" type="text/css" href="CSS\Style.css">
 
 </head>
-<body background= "Images\funky-lines\funky-lines.png">
+<body background= "Images\funky-lines\funky-lines.png" onload="runFunction()">
 <!--COLORS
 Almost Black = HEX: #1A1A19
 Dark Gray = HEX: #3A3E4C
@@ -34,7 +32,7 @@ Light Blue = HEX: #8B9BBB
 						<a class="nav-link" href="#"><strong>Home</strong> <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Coding</a>
+						<a class="nav-link" href="#">Programming</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Employment</a>
@@ -96,33 +94,33 @@ Light Blue = HEX: #8B9BBB
 <div class="container" style="background-color: #CACBD1">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>CODING HISTORY</h1>
+			<h1>WELCOME TO JOSH NEAL'S PORTFOLIO</h1>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-3">
-			<div class="well">
-				<h1>Fake Title1</h1>
-				<img src="Images/Originals/Jeep Desert.jpg" class="center">
+			<div class="well" id="well1">
+				<h2>Programming History</h2>
+				<img id="programming" src="Images\Icons\Programming History.jpg" class="center">
 			</div>		
 		</div>
 
 		<div class="col-md-3">
-			<div class="well">
-				<h1>Fake Title2</h1>
-				<img src="Images\Originals\Jeep Desert.jpg" class="center">
+			<div class="well" id="well2">
+				<h2>Employment History</h2>
+				<img id="employment" src="Images\Icons\Employment History.jpg" class="center">
 			</div>		
 		</div>
 		<div class="col-md-3">
-			<div class="well">
-				<h1>About Me</h1>
-				<img src="Images\Icons\Finals\About Me Final 2.jpg" class="center">
+			<div class="well" id="well3">
+				<h2>About<br>Me</h2>
+				<img id="about" src="Images\Icons\About Me.jpg" class="center">
 			</div>		
 		</div>
 		<div class="col-md-3">
-			<div class="well">
-				<h1>Fake Title4</h1>
-				<img src="Images\Originals\Jeep Desert.jpg" class="center">
+			<div class="well" id="well4">
+				<h2>Contact<br>Me</h2>
+				<img id="contact" src="Images\Icons\Contact Me.jpg" class="center">
 			</div>		
 		</div>
 	</div>
@@ -154,7 +152,7 @@ Light Blue = HEX: #8B9BBB
 		pause: "false"
 	});
 </script>
-<script src="JS/navText.js"></script>
+<script src="JS/imageHover.js"></script>
 
 </body>
 </html>
