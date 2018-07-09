@@ -22,11 +22,11 @@
     top: 0px;
 }
 
-.well {
+.wellShadow {
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.well:hover {
+.wellShadow:hover {
 	background-color: #525F7E;
 }
 
@@ -34,10 +34,14 @@ h1, h2 {
 	text-align: center;
 }
 
-.well {
+.wellShadow {
 	background-color: #6479A5;
 	border-radius: 15px;
 	padding: 25px;
+}
+
+.titlePortion {
+    padding: 50px;
 }
 
 .center {
