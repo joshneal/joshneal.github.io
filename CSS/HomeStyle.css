@@ -1,0 +1,65 @@
+.nav-item {
+	font-size: 25px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.nav-top {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+}
+
+.carousel-top {
+    position: relative;
+    top: 0px;
+}
+
+.wellShadow {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wellShadow:hover {
+	background-color: #525F7E;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.wellShadow {
+	background-color: #6479A5;
+	border-radius: 15px;
+	padding: 25px;
+}
+
+.titlePortion {
+    padding: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+a:link {
+    color: #212529;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

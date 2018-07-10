@@ -7,7 +7,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="CSS\Style.css">
+	<link rel="stylesheet" type="text/css" href="CSS\HomeStyle.css">
 
 </head>
 <body background= "Images\funky-lines\funky-lines.png" onload="runFunction()">
@@ -19,35 +19,33 @@ Dark Blue = HEX: #525F7E
 Middle Blue = HEX: #6479A5
 Light Blue = HEX: #8B9BBB
 -->
-<div class="container-fluid">
+<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-default nav-top">
 	<div class="container">
-		<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-default nav-top">
-			<a class="navbar-brand" href="#"><img width="250px" src="Images\Name3.png"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#"><strong>Home</strong> <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Programming</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Employment</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Interests</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<a class="navbar-brand" href="#"><img width="250px" src="Images\Name3.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#"><strong>Home</strong> <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="programming.html">Programming</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="employment.html">Employment</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Me</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
+</nav>
 
 
 <div id="carouselExampleIndicators" class="carousel-top carousel slide" data-ride="carousel">
@@ -101,29 +99,37 @@ Light Blue = HEX: #8B9BBB
 	</div>
 	<div class="row">
 		<div class="col-md-3">
-			<div class="well wellShadow" id="well1">
+			<a href="programming.html">
+				<div class="well wellShadow" id="well1">
 				<h2>Programming History</h2>
 				<img id="programming" src="Images\Icons\Programming History.jpg" class="center">
-			</div>		
+				</div>
+			</a>
 		</div>
 
 		<div class="col-md-3">
-			<div class="well wellShadow" id="well2">
-				<h2>Employment History</h2>
-				<img id="employment" src="Images\Icons\Employment History.jpg" class="center">
-			</div>		
+			<a href="employment.html">
+				<div class="well wellShadow" id="well2">
+					<h2>Employment History</h2>
+					<img id="employment" src="Images\Icons\Employment History.jpg" class="center">
+				</div>
+			</a>
 		</div>
 		<div class="col-md-3">
-			<div class="well wellShadow" id="well3">
-				<h2>About<br>Me</h2>
-				<img id="about" src="Images\Icons\About Me.jpg" class="center">
-			</div>		
+			<a href="about.html">
+				<div class="well wellShadow" id="well3">
+					<h2>About<br>Me</h2>
+					<img id="about" src="Images\Icons\About Me.jpg" class="center">
+				</div>
+			</a>	
 		</div>
 		<div class="col-md-3">
-			<div class="well wellShadow" id="well4">
-				<h2>Contact<br>Me</h2>
-				<img id="contact" src="Images\Icons\Contact Me.jpg" class="center">
-			</div>		
+			<a href="contact.html">
+				<div class="well wellShadow" id="well4">
+					<h2>Contact<br>Me</h2>
+					<img id="contact" src="Images\Icons\Contact Me.jpg" class="center">
+				</div>
+			</a>
 		</div>
 	</div>
 	<div class="row">
